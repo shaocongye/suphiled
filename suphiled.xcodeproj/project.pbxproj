@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA20FB041AEFB91F0018F1A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20FB031AEFB91F0018F1A1 /* Foundation.framework */; };
+		FA20FB061AEFB91F0018F1A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20FB051AEFB91F0018F1A1 /* CoreGraphics.framework */; };
+		FA20FB081AEFB91F0018F1A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20FB071AEFB91F0018F1A1 /* UIKit.framework */; };
+		FA20FB0A1AEFB91F0018F1A1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20FB091AEFB91F0018F1A1 /* CoreData.framework */; };
+		FA20FB101AEFB91F0018F1A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA20FB0E1AEFB91F0018F1A1 /* InfoPlist.strings */; };
+		FA20FB121AEFB91F0018F1A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA20FB111AEFB91F0018F1A1 /* main.m */; };
+		FA20FB161AEFB91F0018F1A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA20FB151AEFB91F0018F1A1 /* AppDelegate.m */; };
+		FA20FB191AEFB91F0018F1A1 /* suphiled.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA20FB171AEFB91F0018F1A1 /* suphiled.xcdatamodeld */; };
+		FA20FB1B1AEFB91F0018F1A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA20FB1A1AEFB91F0018F1A1 /* Images.xcassets */; };
+		FA20FB221AEFB91F0018F1A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20FB211AEFB91F0018F1A1 /* XCTest.framework */; };
+		FA20FB231AEFB91F0018F1A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20FB031AEFB91F0018F1A1 /* Foundation.framework */; };
+		FA20FB241AEFB91F0018F1A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20FB071AEFB91F0018F1A1 /* UIKit.framework */; };
+		FA20FB251AEFB91F0018F1A1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA20FB091AEFB91F0018F1A1 /* CoreData.framework */; };
+		FA20FB2D1AEFB91F0018F1A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA20FB2B1AEFB91F0018F1A1 /* InfoPlist.strings */; };
+		FA20FB2F1AEFB91F0018F1A1 /* suphiledTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA20FB2E1AEFB91F0018F1A1 /* suphiledTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA20FB261AEFB91F0018F1A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA20FAF81AEFB91F0018F1A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA20FAFF1AEFB91F0018F1A1;
+			remoteInfo = suphiled;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA20FB001AEFB91F0018F1A1 /* suphiled.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suphiled.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA20FB031AEFB91F0018F1A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA20FB051AEFB91F0018F1A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA20FB071AEFB91F0018F1A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA20FB091AEFB91F0018F1A1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FA20FB0D1AEFB91F0018F1A1 /* suphiled-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "suphiled-Info.plist"; sourceTree = "<group>"; };
+		FA20FB0F1AEFB91F0018F1A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA20FB111AEFB91F0018F1A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA20FB131AEFB91F0018F1A1 /* suphiled-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "suphiled-Prefix.pch"; sourceTree = "<group>"; };
+		FA20FB141AEFB91F0018F1A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA20FB151AEFB91F0018F1A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA20FB181AEFB91F0018F1A1 /* suphiled.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = suphiled.xcdatamodel; sourceTree = "<group>"; };
+		FA20FB1A1AEFB91F0018F1A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA20FB201AEFB91F0018F1A1 /* suphiledTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suphiledTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA20FB211AEFB91F0018F1A1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA20FB2A1AEFB91F0018F1A1 /* suphiledTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "suphiledTests-Info.plist"; sourceTree = "<group>"; };
+		FA20FB2C1AEFB91F0018F1A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA20FB2E1AEFB91F0018F1A1 /* suphiledTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = suphiledTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA20FAFD1AEFB91F0018F1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA20FB061AEFB91F0018F1A1 /* CoreGraphics.framework in Frameworks */,
+				FA20FB0A1AEFB91F0018F1A1 /* CoreData.framework in Frameworks */,
+				FA20FB081AEFB91F0018F1A1 /* UIKit.framework in Frameworks */,
+				FA20FB041AEFB91F0018F1A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA20FB1D1AEFB91F0018F1A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA20FB221AEFB91F0018F1A1 /* XCTest.framework in Frameworks */,
+				FA20FB251AEFB91F0018F1A1 /* CoreData.framework in Frameworks */,
+				FA20FB241AEFB91F0018F1A1 /* UIKit.framework in Frameworks */,
+				FA20FB231AEFB91F0018F1A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA20FAF71AEFB91F0018F1A1 = {
+			isa = PBXGroup;
+			children = (
+				FA20FB0B1AEFB91F0018F1A1 /* suphiled */,
+				FA20FB281AEFB91F0018F1A1 /* suphiledTests */,
+				FA20FB021AEFB91F0018F1A1 /* Frameworks */,
+				FA20FB011AEFB91F0018F1A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA20FB011AEFB91F0018F1A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA20FB001AEFB91F0018F1A1 /* suphiled.app */,
+				FA20FB201AEFB91F0018F1A1 /* suphiledTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA20FB021AEFB91F0018F1A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA20FB031AEFB91F0018F1A1 /* Foundation.framework */,
+				FA20FB051AEFB91F0018F1A1 /* CoreGraphics.framework */,
+				FA20FB071AEFB91F0018F1A1 /* UIKit.framework */,
+				FA20FB091AEFB91F0018F1A1 /* CoreData.framework */,
+				FA20FB211AEFB91F0018F1A1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA20FB0B1AEFB91F0018F1A1 /* suphiled */ = {
+			isa = PBXGroup;
+			children = (
+				FA20FB141AEFB91F0018F1A1 /* AppDelegate.h */,
+				FA20FB151AEFB91F0018F1A1 /* AppDelegate.m */,
+				FA20FB1A1AEFB91F0018F1A1 /* Images.xcassets */,
+				FA20FB171AEFB91F0018F1A1 /* suphiled.xcdatamodeld */,
+				FA20FB0C1AEFB91F0018F1A1 /* Supporting Files */,
+			);
+			path = suphiled;
+			sourceTree = "<group>";
+		};
+		FA20FB0C1AEFB91F0018F1A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA20FB0D1AEFB91F0018F1A1 /* suphiled-Info.plist */,
+				FA20FB0E1AEFB91F0018F1A1 /* InfoPlist.strings */,
+				FA20FB111AEFB91F0018F1A1 /* main.m */,
+				FA20FB131AEFB91F0018F1A1 /* suphiled-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA20FB281AEFB91F0018F1A1 /* suphiledTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA20FB2E1AEFB91F0018F1A1 /* suphiledTests.m */,
+				FA20FB291AEFB91F0018F1A1 /* Supporting Files */,
+			);
+			path = suphiledTests;
+			sourceTree = "<group>";
+		};
+		FA20FB291AEFB91F0018F1A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA20FB2A1AEFB91F0018F1A1 /* suphiledTests-Info.plist */,
+				FA20FB2B1AEFB91F0018F1A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA20FAFF1AEFB91F0018F1A1 /* suphiled */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA20FB321AEFB91F0018F1A1 /* Build configuration list for PBXNativeTarget "suphiled" */;
+			buildPhases = (
+				FA20FAFC1AEFB91F0018F1A1 /* Sources */,
+				FA20FAFD1AEFB91F0018F1A1 /* Frameworks */,
+				FA20FAFE1AEFB91F0018F1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = suphiled;
+			productName = suphiled;
+			productReference = FA20FB001AEFB91F0018F1A1 /* suphiled.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA20FB1F1AEFB91F0018F1A1 /* suphiledTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA20FB351AEFB91F0018F1A1 /* Build configuration list for PBXNativeTarget "suphiledTests" */;
+			buildPhases = (
+				FA20FB1C1AEFB91F0018F1A1 /* Sources */,
+				FA20FB1D1AEFB91F0018F1A1 /* Frameworks */,
+				FA20FB1E1AEFB91F0018F1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA20FB271AEFB91F0018F1A1 /* PBXTargetDependency */,
+			);
+			name = suphiledTests;
+			productName = suphiledTests;
+			productReference = FA20FB201AEFB91F0018F1A1 /* suphiledTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA20FAF81AEFB91F0018F1A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jinslight;
+				TargetAttributes = {
+					FA20FB1F1AEFB91F0018F1A1 = {
+						TestTargetID = FA20FAFF1AEFB91F0018F1A1;
+					};
+				};
+			};
+			buildConfigurationList = FA20FAFB1AEFB91F0018F1A1 /* Build configuration list for PBXProject "suphiled" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA20FAF71AEFB91F0018F1A1;
+			productRefGroup = FA20FB011AEFB91F0018F1A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA20FAFF1AEFB91F0018F1A1 /* suphiled */,
+				FA20FB1F1AEFB91F0018F1A1 /* suphiledTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA20FAFE1AEFB91F0018F1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA20FB101AEFB91F0018F1A1 /* InfoPlist.strings in Resources */,
+				FA20FB1B1AEFB91F0018F1A1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA20FB1E1AEFB91F0018F1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA20FB2D1AEFB91F0018F1A1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA20FAFC1AEFB91F0018F1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA20FB191AEFB91F0018F1A1 /* suphiled.xcdatamodeld in Sources */,
+				FA20FB161AEFB91F0018F1A1 /* AppDelegate.m in Sources */,
+				FA20FB121AEFB91F0018F1A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA20FB1C1AEFB91F0018F1A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA20FB2F1AEFB91F0018F1A1 /* suphiledTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA20FB271AEFB91F0018F1A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA20FAFF1AEFB91F0018F1A1 /* suphiled */;
+			targetProxy = FA20FB261AEFB91F0018F1A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA20FB0E1AEFB91F0018F1A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA20FB0F1AEFB91F0018F1A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA20FB2B1AEFB91F0018F1A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA20FB2C1AEFB91F0018F1A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA20FB301AEFB91F0018F1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA20FB311AEFB91F0018F1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA20FB331AEFB91F0018F1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "suphiled/suphiled-Prefix.pch";
+				INFOPLIST_FILE = "suphiled/suphiled-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA20FB341AEFB91F0018F1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "suphiled/suphiled-Prefix.pch";
+				INFOPLIST_FILE = "suphiled/suphiled-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA20FB361AEFB91F0018F1A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/suphiled.app/suphiled";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "suphiled/suphiled-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "suphiledTests/suphiledTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA20FB371AEFB91F0018F1A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/suphiled.app/suphiled";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "suphiled/suphiled-Prefix.pch";
+				INFOPLIST_FILE = "suphiledTests/suphiledTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA20FAFB1AEFB91F0018F1A1 /* Build configuration list for PBXProject "suphiled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA20FB301AEFB91F0018F1A1 /* Debug */,
+				FA20FB311AEFB91F0018F1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA20FB321AEFB91F0018F1A1 /* Build configuration list for PBXNativeTarget "suphiled" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA20FB331AEFB91F0018F1A1 /* Debug */,
+				FA20FB341AEFB91F0018F1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA20FB351AEFB91F0018F1A1 /* Build configuration list for PBXNativeTarget "suphiledTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA20FB361AEFB91F0018F1A1 /* Debug */,
+				FA20FB371AEFB91F0018F1A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA20FB171AEFB91F0018F1A1 /* suphiled.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA20FB181AEFB91F0018F1A1 /* suphiled.xcdatamodel */,
+			);
+			currentVersion = FA20FB181AEFB91F0018F1A1 /* suphiled.xcdatamodel */;
+			path = suphiled.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA20FAF81AEFB91F0018F1A1 /* Project object */;
+}
