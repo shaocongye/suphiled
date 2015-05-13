@@ -1,0 +1,51 @@
+/* 
+  Localizable.strings
+//  LED_light_bulbs_for_network_control
+
+  Created by mac book on 14-11-30.
+  Copyright (c) 2014年 mac book. All rights reserved.
+*/
+
+"wait5minusMessage" = "正在搜索设备，等待5秒钟...";
+"wait5minuslinkMessage" = "正在连接设备，等待5秒钟...";
+"wait1minuslinkMessage" = "正在连接设备，等待1秒钟...";
+"freshMessage" = "当前设备无法链接，请刷新！";
+"NodeviceMessage" = "设备不在当前或者当前设备无法链接，请刷新！";
+"wait10minusMessage" = "附近没有指定网络，请重新扫描以后等待10秒！";
+"connectFailMessage" = "设备链接失败，请重新刷新试一试！";
+"setupDeviceName" = "请设置设备名称，方便记忆和操作:";
+"saveFailMessage" = "保存设置失败，请重新保存设置！";
+"saveOKMessage" = "保存默认配置成功!";
+
+"wait2minSaveMessage" ="正在保存默认设置，请稍候!";
+
+"lampName" = "房间灯";
+
+"selectMode" = "  选择模式";
+"delayMode" = "  延时关灯";
+"freeMode" = "  自定义控制";
+"stringMessage" = "提示";
+
+"refreshButton" = "刷新";
+"CancelButton" = "取消";
+"OKButton" = "确定";
+"ModifyButton" = "修改";
+
+"readmode" = "全亮";
+"studymode" = "看书";
+"freemode" = "呼吸灯";
+"gamemode" = "打游戏";
+"nightmode" = "小夜灯";
+"allmode" = "全亮";
+
+"minute30" = "30分钟";
+"minute60" = "60分钟";
+"minute90" = "90分钟";
+"minute120" = "120分钟";
+"minute0" = "关闭延时";
+
+
+"ColorLable" = "调色";
+"BrightnessLable" = "亮度";
+"SwitchLable" = "开关";
+"defaultLable" = "默认设置";

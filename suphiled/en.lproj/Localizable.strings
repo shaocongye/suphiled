@@ -1,0 +1,51 @@
+/* 
+  Localizable.strings
+//  LED_light_bulbs_for_network_control
+
+  Created by mac book on 14-11-30.
+  Copyright (c) 2014年 mac book. All rights reserved.
+*/
+
+"wait5minusMessage" = "Scanning connected equipment, wait for 5 seconds…";
+"wait5minuslinkMessage" = "Connecting equipment, wait for 5 seconds...";
+"wait1minuslinkMessage" = "Connecting equipment, wait for 1 seconds...";
+"freshMessage" = "The current equipment can't link, please refresh! ";
+"NodeviceMessage" = "Equipment is not in the current or the current equipment can't link, please refresh!";
+
+"wait5minusMessage" = "Not near the specified network, please wait 10 seconds after the rescan. ";
+"connectFailMessage" = "Device link failure, please refresh to try!";
+"setupDeviceName" = "Please set the device name to facilitate memory and operation:";
+"saveFailMessage" = "Failed to save the settings, please save the settings!";
+"saveOKMessage" = "Save the default cnfiguration successfully!";
+"wait2minSaveMessage" ="Is to save the default cnfiguration, please wait!";
+
+
+"lampName" = "Room";
+
+"selectMode" = "  Model chosen";
+"delayMode" = "  Timer";
+"freeMode" = "  Customized setting";
+
+"stringMessage" = "Tips";
+"refreshButton" = "Refresh";
+"CancelButton" = "Cancel";
+"OKButton" = "OK";
+"ModifyButton" = "Modify";
+
+"readmode" = "Reading";
+"studymode" = "Learning";
+"freemode" = "NotifyLight";
+"gamemode" = "Game";
+"nightmode" = "Night";
+
+"minute30" = "30 minutes";
+"minute60" = "60 minutes";
+"minute90" = "90 minutes";
+"minute120" = "120 minutes";
+"minute0" = "Turn off timer";
+
+"ColorLable" = "Color";
+"BrightnessLable" = "Bright";
+"SwitchLable" = "Power";
+
+"defaultLable" = "Default";

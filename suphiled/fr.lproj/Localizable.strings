@@ -1,0 +1,53 @@
+/*
+
+Localizable.strings
+
+Ampoule à del du réseau de commande
+
+Par 14-11-30 Mac de livres.
+
+Copyright (c) 2014 Mac le livre de l'année.Tous droits réservés.
+
+*/
+
+
+
+"wait5minusMessage" = "la connexion du dispositif de balayage, à attendre 5 secondes...";
+
+"wait5minuslinkMessage" = "Connecting equipment, wait for 5 seconds...";
+"wait1minuslinkMessage" = "Connecting equipment, wait for 1 seconds...";
+"freshMessage" = "The current equipment can't link, please refresh! ";
+"NodeviceMessage" = "Equipment is not in the current or the current equipment can't link, please refresh!";
+
+"wait5minusMessage" = "Non spécifié dans le réseau, veuillez attendre 10 secondes après le balayage.";
+"connectFailMessage" = "Le dispositif de défaillance de connexion, le rafraîchissement d'essayer!";
+"setupDeviceName" = "S'il vous plaît, nom de l'équipement, la pratique de la mémoire et de fonctionnement: ";
+
+"saveFailMessage" = "Enregistrer la configuration de l'échec, veuillez ré - Enregistrer la configuration.";
+
+
+"Lampname" = "chambre";
+
+"selectMode" = "  Sélection de modèle";
+"delayMode" = "  Minuterie";
+"freeMode" = "  Personnalisation";
+
+"Stringmessage" = "pointe";
+"Refreshbutton" = "rafraîchis";
+"Cancelbutton" = "annuler";
+"Okbutton" = "OK";
+"Modifybutton" = "modifier";
+"Readmode" = "lecture";
+"Studymode" = "apprendre";
+"Freemode" = "notifylight";
+"Le mode de jeu" = "jeu";
+"Nightmode" = "nuit";
+"Minute30" = "30 minutes";
+"Minute60" = "une heure";
+"Minute90" = "1,5 heures";
+"Minute120" = "à deux heures";
+"minute0" = "Minuterie de coupure";
+
+"Colorlable" = "couleur";
+"Brightnesslable" = "lumière";
+"Switchlable" = "marche / arrêt";
